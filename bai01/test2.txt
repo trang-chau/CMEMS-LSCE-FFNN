@@ -1,5 +1,0 @@
-ex1.txt
-ex2.txt
-ex3.txt
-test2.txt
-test.txt
