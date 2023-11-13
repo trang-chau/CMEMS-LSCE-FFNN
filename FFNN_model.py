@@ -1,3 +1,11 @@
+#%%############################################### INSTRUCTION #########################################################
+#This Python script presents an example of feed-forward neural network (FFNN) models used (1) for the reconstruction of global surface ocean CO2 fugacity (fCO2) in June 2021
+#The script is organized as follows:
+    #1. Import Python packages: Keras is required to run FFNN.
+    #2. Load Input data: predictors and the target fCO2 available at SOCAT grids used for model fitting and global-covering predictors data for reconstruction.
+    #3. Design FFNN: train on monthly, 1° dataset.
+    #4. Run FFNN for reconstruction and plot results.
+
 #%%########################################## LOADING PYTHON PACKAGES ###############################################
 import os, sys, psutil
 directory = os.environ['directory']
