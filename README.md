@@ -4,7 +4,7 @@ monitoring the recent status of ocean carbon uptake and ocean acidification and 
 
 This Python source code exemplifies a feed-forward neural network (FFNN) model (**FFNN_model.py**). Within the construction of an ensemble approach of FFNN models, namely **CMEMS-LSCE-FFNN**, it was developed at *Laboratoire des Sciences du Climat et de l’Environnement (LSCE)* under the *Copernicus Marine Environment Monitoring Service (CMEMS) project* for sustainably reconstructing observation-derived global ocean carbonate system datasets at high space-time resolutions since the year 1985 (Chau et al., 2022, 2023a). 
 
-The FFNN model provided here is trained on monthly, 1° - gridded data of fuCO2 and a suite of environmental variables (e.g., sea surface temperature - SST, salinity - SSS, Chlorophyll - CHL, etc.) in May to July over the period 1985-2021. However, data extrapolations to a finer resolution and forward in time are doable (Chau et al., 2023a,b). Any implementation of the Python script code is encouraged and subject to citing the following references.
+The FFNN model provided here is trained on monthly, 1° - gridded data of fuCO2 and a suite of environmental variables (e.g., sea surface temperature - SST, salinity - SSS, Chlorophyll - CHL, etc.) in May to July over the period 1985-2021 (see input data in Data/). However, data extrapolations to a finer resolution and forward in time are doable (Chau et al., 2023a,b). Any implementation of the Python script code is encouraged and subject to citing the following references.
 
 
 # REFERENCES:
